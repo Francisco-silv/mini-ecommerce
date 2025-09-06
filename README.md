@@ -23,6 +23,6 @@ Projeto simples de um site de loja virtual feito com **HTML + CSS**.
 - Pode subir as alteracoes na sua branch.
 
 ## 👨‍💻 Contribuidores
-- Pessoa 1 - Página Inicial
-- Pessoa 2 - Produtos
-- Pessoa 3 - Contato
+- ()[]
+- ()[]
+- ()[]
