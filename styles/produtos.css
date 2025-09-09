@@ -1,37 +1,68 @@
 /* Produtos em destaque */
 /* coloca um espaco de 20px para cima e para baixo e auto para os lados */
 /* e uma largura de 800px */
-.lista-produtos {}
+.lista-produtos {
+  margin: 20px auto;
+  width: 800px;
+}
 
 /* coloca um espaco de 18px abaixo do titulo */
-.lista-produtos h2 {}
+.lista-produtos h2 {
+  bottom: 18px;
+}
 
 /* coloca como grid de 3 colunas e espaco de 10px entre eles */
-.produtos-container {}
+.produtos-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
 
 /* cria um quadrado com borda arredondada */
 /* e uma largura de 240px */
-.produtos-container .produto {}
+.produtos-container .produto {
+  width: 240px;
+  border-radius: 15px;
+}
 
 /* coloca uma largura de 100% */
 /* e uma borda arredondada */
-.produtos-container .produto img {}
+.produtos-container .produto img {
+  width: 100%;
+  border-radius: 15px;
+}
 
 /* coloca uma margem de 10px para cima e para baixo */
 /* e uma fonte de 18px */
 /* e alinha o texto ao centro */
 /* coloca um peso na font para bold */
-.produtos-container .produto p {}
+.produtos-container .produto p {
+  margin: 10px 0;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
 
 /* colocar o preco e o botao em coluna */
 /* colocar um espaco de 10px */
-.produtos-container .produto .detalhes {}
+.produtos-container .produto .detalhes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
 /* coloca uma cor de fundo azul e branco para o texto */
 /* coloca uma borda arredondada */
 /* coloca um espaco interno de 10px vertical e 20px horizontal */
 /* coloca um cursor de ponteiro */
-.produtos-container .produto button {}
+.produtos-container .produto button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
 
 /* coloca uma cor de fundo azul escuro, quando o mouse passar por cima */
-.produtos-container .produto button:hover {}
+.produtos-container .produto button:hover {
+  background-color: darkblue;
+}
