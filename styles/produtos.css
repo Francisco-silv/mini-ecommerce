@@ -6,6 +6,12 @@
   width: 800px;
 }
 
+
+h2 {
+  text-align: center;
+}
+
+
 /* coloca um espaco de 18px abaixo do titulo */
 .lista-produtos h2 {
   bottom: 18px;
