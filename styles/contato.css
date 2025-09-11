@@ -2,8 +2,19 @@
 /* coloca uma altura de 300px */
 /* colocar como coluna */
 /* alinhado para o centro */
-.contato {}
+.contato {
+display: flex;
+justify-content: center;
+background-color: #f2f2f2;
+font-family:Verdana, Geneva, Tahoma, sans-serif; 
+padding: 20px 40px;
+margin: 20px;
+height: 300px;
 
+  
+
+
+}
 /* coloca um espaco de 20px para cima */
 /* coloca uma largura de 400px */
 /* coloca uma cor de fundo #f2f2f2 */
@@ -12,26 +23,74 @@
 /* coloca um espaco interno de 16px */
 /* coloca um espaco de 16px entre os elementos */
 /* colocar como coluna */
-.contato form {}
+.contato form {
+  width: 400px;
+background-color: #f2f2f2;
+border-radius: 100px solid #ccc;
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+gap: 16px;
+padding: 16px;
+width: 400px;
+
+
+}
 
 /* coloque a label e o input como coluna */
 /* e um espaco de 10px entre eles */
-.contato .form-group {}
+.contato .form-group {
+  flex-direction: column;
+  margin: 10px;
+}
 
 /* coloca uma fonte pequena */
-.contato form label {}
+.contato form label {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
 
 /* faz uma estilizacao legal para o input */
-.contato form input {}
+.contato form input {
+  background: rgb(182, 210, 252);
+  font-size: 19px;
+  padding: 10px;
+  border-radius: 10px;
+  
+
+ 
+}
 
 /* faz uma estilizacao legal para o textarea, baseado no input */
-.contato form textarea {}
+.contato form textarea {
+  font-size: 19px;
+  background: rgb(182, 210, 252);
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  
+ 
+
+  
+
+}
 
 /* deixa o botao sem borda, com uma cor de fundo azul, coloca uma cor branca para o texto */
 /* coloca uma borda arredondada */
 /* coloca um espaco interno de 10px vertical e 20px horizontal */
 /* coloca um cursor de ponteiro */
-.contato form button {}
+.contato form button {
+  font-size: 19px;
+  background: rgb(85, 150, 247);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px
+}
 
 /* quando eu passa o mouse por cima do botao quero um azul escuro */
-.contato form button:hover {}
+.contato form button:hover {
+  background-color: darkblue;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
